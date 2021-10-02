@@ -1,10 +1,10 @@
 module.exports = {
+  mode: 'jit',
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Abel', 'regular'],
-      display: ['Zen dots', 'regular'],
+      sans: ['Montserrat', 'regular'],
     },
     extend: {
       spacing: {

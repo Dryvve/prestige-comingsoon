@@ -20,17 +20,17 @@ export default defineComponent ({
 
 <style lang="sass" scoped>
 .navbar
-  @apply absolute mx-auto w-screen bg-black flex flex-row justify-center z-20
+  @apply absolute top-0 mx-auto w-screen bg-black flex flex-row justify-center z-40
 
 .logo
-  @apply h-16 py-4 px-2
+  @apply h-12 py-4 px-2
 
   @screen lg 
-    @apply h-16 py-4
+    @apply h-14 py-4
 
 .wordmark
-  @apply h-8 p-2 self-center
+  @apply h-7 p-2 self-center
 
   @screen lg 
-    @apply h-8
+    @apply h-7
 </style>
